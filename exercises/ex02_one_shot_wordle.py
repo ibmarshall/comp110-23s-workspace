@@ -7,7 +7,7 @@ guess: str = input(f"What is your {length_secret}-letter guess? ")
 
 # with wrong amount of letters, ask to fix it
 while (len(guess) != length_secret):
-    guess: str = input(f"That was not {length_secret} letters! Try again: ")
+    guess = input(f"That was not {length_secret} letters! Try again: ")
 
 
 WHITE_BOX: str = "\U00002B1C"
