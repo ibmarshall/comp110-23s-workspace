@@ -1,5 +1,5 @@
 """Wordle with six guesses!"""
-____author____ = "730610651"
+__author__ = "730610651"
 
 
 def contains_char(any_length: str, letter: str) -> bool:
@@ -40,11 +40,11 @@ def input_guess(num_letter: int) -> str:
     guess: str = input(f"Enter a {num_letter} character word: ")
     
     correct_num: bool = False
-    while correct_num == False: 
+    while correct_num is False: 
         if len(guess) == num_letter:
             correct_num = True
         else:
-          guess = input(f"That wasn't {num_letter} chars! Try again: ")
+            guess = input(f"That wasn't {num_letter} chars! Try again: ")
     return guess
 
 
