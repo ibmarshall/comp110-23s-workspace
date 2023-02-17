@@ -76,6 +76,7 @@ def main() -> None:
     else:
         print("X/6 - Sorry, try again tomorrow!")
 
+
 # run game as a module
 if __name__ == "__main__":
     main()
