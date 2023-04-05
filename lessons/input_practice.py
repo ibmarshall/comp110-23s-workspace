@@ -1,3 +1,3 @@
-from lessons.random import halve
+from lessons.random1 import halve
 
 print(halve(3.0))
